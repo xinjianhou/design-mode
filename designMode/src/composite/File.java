@@ -1,4 +1,4 @@
-package cmposite;
+package composite;
 
 public abstract class File {
     String name;

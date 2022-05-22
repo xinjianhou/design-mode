@@ -1,4 +1,4 @@
-package cmposite;
+package composite;
 
 public class ImagerFile extends File{
 

@@ -1,4 +1,4 @@
-package cmposite;
+package composite;
 
 import java.util.ArrayList;
 import java.util.List;
