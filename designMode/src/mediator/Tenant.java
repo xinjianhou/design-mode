@@ -11,8 +11,8 @@ public class Tenant extends Person{
      * @param message
      * @return void
      */
-    public void constact(String message){
-        mediator.constact(message, this);
+    public void contact(String message){
+        mediator.contact(message, this);
     }
 
     /**

@@ -24,8 +24,10 @@ public class Client {
         mediator.setHouseOwner(houseOwner);
         mediator.setTenant(tenant);
 
-        tenant.constact("听说你那里有三室的房主出租.....");
-        houseOwner.constact("是的!请问你需要租吗?");
+        tenant.contact("听说你那里有三室的房主出租.....");
+        houseOwner.contact("是的!请问你需要租吗?");
+        String[] array = new String[]{"$1"};
+        System.out.println(array[0]);
     }
 
 }

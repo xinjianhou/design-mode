@@ -12,5 +12,5 @@ public abstract class Person {
     }
     public abstract void getMessage(String message);
 
-    public abstract void constact(String message);
+    public abstract void contact(String message);
 }

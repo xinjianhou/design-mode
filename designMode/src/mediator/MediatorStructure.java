@@ -22,7 +22,7 @@ public class MediatorStructure extends Mediator{
         this.tenant = tenant;
     }
 
-    public void constact(String message, Person person) {
+    public void contact(String message, Person person) {
         if(person == houseOwner){          //如果是房主，则租房者获得信息
             tenant.getMessage(message);
         }
